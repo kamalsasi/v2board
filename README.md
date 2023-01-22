@@ -123,4 +123,10 @@ Processes = 1</code>
 
 بعد از انجام روی Confirm میزنیم 
 
-بقیه آموزش را در ویدیو دنبال کنید زیرا به زبان چینی هست کلمات 
+بقیه آموزش را در ویدیو دنبال کنید زیرا به زبان چینی هست کلمات
+<table style="width: 200px;float: right;">
+<tr>
+<td>7Learn.com Web Tutorials</td>
+</tr>
+</table>
+<div style="width: 200px;float: left;">7Learn.com Web Tutorials</div>
