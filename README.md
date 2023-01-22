@@ -199,7 +199,7 @@ Processes = 1</code>
 
 حالا مانند ویدیو کد ها را ادیت میکنید 
 
-<pre class="notranslate"><code>XrayR</code></pre>
+
 
 برای باز کردن پورت ها از کد زیر استفاده میکنید 
 
