@@ -30,19 +30,19 @@ Linode
 Redis</code>
 
 در زمانی که نرم افزار ها در حال نصب هستند وارد سایت کلود فلر شوید و یک ساب دامین تعریف کنید و IPv4 سرور خود 
-Cloudflare
+<code>Cloudflare</code>
 
 را به او بدهید در یک رکورد A مانند ویدیو.
 
 به  aaPanel  خود برمی گردیم  و بعد از نصب مسیر زیر میرویم
 
-App Store>Installed>PHP-7.4>Setting>Install extensions
+<code>App Store>Installed>PHP-7.4>Setting>Install extensions</code>
 
 و دو برنامه زیر را نصب میکنیم
 
-fileinfo
+<code>fileinfo
 
-redis
+redis</code>
 
 بعد از نصب به منوی Website رفته و Add site را میزنیم
 
@@ -54,31 +54,29 @@ redis
 
 حالا به مسیر زیر می رویم.
 
-aaPanel> App Store >PHP 7.4 >Setting > Disabled functions
+<code>aaPanel> App Store >PHP 7.4 >Setting > Disabled functions</code>
 
 و فایل های زیر را پاک میکنیم مانند ویدیو 
 
-putenv, proc_open, pcntl_alarm, pcntl_signal
+<code>putenv, proc_open, pcntl_alarm, pcntl_signal</code>
 
 حالا به دایرکتوری خودمان که نام وب سایت ما است وارد می شویم و دستور زیر را اجرا می کنیم
 
-cd /www/wwwroot/Domain name ****
+<code>cd /www/wwwroot/Domain name ****
 chattr -i .user.ini
-rm -rf .htaccess 404.html index.html .user.ini
+rm -rf .htaccess 404.html index.html .user.ini</code>
 
 و بعد با دستور زیر برنامه را دانلود و نصب کنید 
 
-git clone https://github.com/v2board/v2board.git ./
-
+<pre class="notranslate"><code>git clone https://github.com/v2board/v2board.git ./</code></pre>
 اجرا
 
-sh init.sh
-
+<pre class="notranslate"><code>sh init.sh</code></pre>
 اگر زمان نصب با ارور برخورد کردید به دایرکتوری خود رفته و فایل های داخل آن را پاک کنید مانند ویدیو.
 
 حالا مانند ویدیو جلو بروید و کدها را در جای مناسب خود قرار دهید
 
-Site Name>URL rewrite
+<code>Site Name>URL rewrite
 
 location /downloads {
 }
@@ -93,14 +91,14 @@ location ~ .*\.(js|css)?$
     error_log off;
     access_log /dev/null; 
 }
-
+</code>
 در مسیر زیر public را انتخاب کنید 
 
-Site directory > Running directory
+<code>Site directory > Running directory</code>
 
 حالا به مسیر زیر رفته
 
-aaPanel >Cron
+<code>aaPanel >Cron
 
 Type of Task  Shell Script
 
@@ -110,19 +108,19 @@ Execution cycle  N Minutes 1 Minute
 
 Script content 
 
-php /www/wwwroot/ِDomain Name/artisan schedule:run
+php /www/wwwroot/ِDomain Name/artisan schedule:run</code>
 
 خالا در aaPanel ما باید supervisor را نصب کنیم مانند ویدیو 
 
 به مسیر زیر بروید 
 
-aaPanel>Store>Tools
+<code>aaPanel>Store>Tools</code>
 
 برنامه را نصب کنید و بعد از پایان نصب رو Setting کلیک کنید و بعد روی Add Daemon
 
 حالا تنظیمات رو مانند ویدیو انجام دهید 
 
-Name = V2board
+<code>Name = V2board
 
 Run User = www
 
@@ -130,7 +128,7 @@ Run Dir =  مسیر دایرکتوری وب شما
 
 Start Command = php artisan horizon
 
-Processes = 1
+Processes = 1</code>
 
 بعد از انجام روی Confirm میزنیم 
 
