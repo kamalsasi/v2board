@@ -25,9 +25,9 @@ Linode
 
 در aaPanel  به App Store بروید و در قسمت Deployment این دو را هم نصب کنید .
 
-PM2 Manager
+<code>PM2 Manager
 
-Redis
+Redis</code>
 
 در زمانی که نرم افزار ها در حال نصب هستند وارد سایت کلود فلر شوید و یک ساب دامین تعریف کنید و IPv4 سرور خود 
 Cloudflare
