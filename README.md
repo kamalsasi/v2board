@@ -1,8 +1,8 @@
 # v2board
 https://github.com/cx9208/bbrplus
 https://xrayr-project.github.io/XrayR-doc/
-
-
+https://github.com/XrayR-project/XrayR
+https://github.com/v2board/v2board
 
 
 سلام دوستان عزیز امروز میخواهیم با هم نصب و راه اندازی V2board را با هم انجام دهیم .
