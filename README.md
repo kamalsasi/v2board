@@ -90,8 +90,7 @@ location ~ .*\.(js|css)?$
     expires      1h;
     error_log off;
     access_log /dev/null; 
-}
-</code>
+}</code>
 در مسیر زیر public را انتخاب کنید 
 
 <code>Site directory > Running directory</code>
