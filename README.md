@@ -12,11 +12,12 @@ Linode
 
 بعد از نصب کردن سیستم عامل با افزار دلخواه خود به سرور خود وصل شوید و سرور خود را با دستور زیر آپدیت کنید من از نرم افزار پوتی استفاده کردم.
 
-sudo yum update
+<code>sudo yum update</code>
 
 و بعد از آپدیت شدن سرور با دستور زیر aaPanel نصب می کنید
 
-yum install -y wget && wget -O install.sh http://www.aapanel.com/script/install_6.0_en.sh && bash install.sh
+<pre class="notranslate"><code>yum install -y wget && wget -O install.sh http://www.aapanel.com/script/install_6.0_en.sh && bash install.sh
+</code></pre>
 
 بعد از نصب شدن به شما آدرس دسترسی به پنل خود را نمایش می دهد و همچنین یوزرنیم و پسورد شما آنها را کپی کرده و در جایی بنویسید.
 
