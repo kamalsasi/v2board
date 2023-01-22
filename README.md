@@ -124,5 +124,3 @@ Processes = 1</code>
 بعد از انجام روی Confirm میزنیم 
 
 بقیه آموزش را در ویدیو دنبال کنید زیرا به زبان چینی هست کلمات
-<p style="width: 200px;margin: 10px 7px 5px 3px">7Learn.com</p>
-<pre style="width: 200px;margin: 10px 7px 5px 3px">7Learn.com</pre>
