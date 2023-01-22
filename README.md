@@ -76,7 +76,7 @@ rm -rf .htaccess 404.html index.html .user.ini</code>
 
 حالا مانند ویدیو جلو بروید و کدها را در جای مناسب خود قرار دهید
 
-Site Name>URL rewrite
+<code>Site Name>URL rewrite</code>
 
 location /downloads {
 }
@@ -89,9 +89,9 @@ location ~ .*\.(js|css)?$
 {
     expires      1h;
     error_log off;
-    access_log /dev/null;
-    }
-    <span class="_2PHJq public-DraftStyleDefault-ltr"></span>
+    access_log /dev/null; 
+}
+    
 در مسیر زیر public را انتخاب کنید 
 
 <code>Site directory > Running directory</code>
