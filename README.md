@@ -99,15 +99,10 @@ location ~ .*\.(js|css)?$
 حالا به مسیر زیر رفته
 
 <code>aaPanel >Cron
-
 Type of Task  Shell Script
-
  Name of Task  v2board
-
 Execution cycle  N Minutes 1 Minute
-
 Script content 
-
 php /www/wwwroot/ِDomain Name/artisan schedule:run</code>
 
 خالا در aaPanel ما باید supervisor را نصب کنیم مانند ویدیو 
@@ -121,13 +116,9 @@ php /www/wwwroot/ِDomain Name/artisan schedule:run</code>
 حالا تنظیمات رو مانند ویدیو انجام دهید 
 
 <code>Name = V2board
-
 Run User = www
-
 Run Dir =  مسیر دایرکتوری وب شما
-
 Start Command = php artisan horizon
-
 Processes = 1</code>
 
 بعد از انجام روی Confirm میزنیم 
