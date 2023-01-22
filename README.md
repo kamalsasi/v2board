@@ -78,21 +78,19 @@ rm -rf .htaccess 404.html index.html .user.ini</code>
 
 <code>Site Name>URL rewrite</code>
 
-<ul dir="auto">
-<li>location /downloads {</li>
-<li>}</li>
+<code>location /downloads {
+}
 
-<li>location / {  </li>
-<li>    try_files $uri $uri/ /index.php$is_args$query_string;  </li>
-<li>}</li>
+location / {  
+    try_files $uri $uri/ /index.php$is_args$query_string;  
+}
 
-<li>location ~ .*\.(js|css)?$</li>
-<li>{</li>
-<li>    expires      1h;</li>
-<li>  error_log off;</li>
-<li>access_log /dev/null;</li>
-<li>}</li>
-</ul>
+location ~ .*\.(js|css)?$
+{
+    expires      1h;
+    error_log off;
+    access_log /dev/null; 
+}</code>
     
 در مسیر زیر public را انتخاب کنید 
 
