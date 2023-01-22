@@ -89,9 +89,9 @@ location ~ .*\.(js|css)?$
 {
     expires      1h;
     error_log off;
-    access_log /dev/null; 
-}
-    
+    access_log /dev/null;
+    }
+    <span class="_2PHJq public-DraftStyleDefault-ltr"></span>
 در مسیر زیر public را انتخاب کنید 
 
 <code>Site directory > Running directory</code>
