@@ -1,4 +1,8 @@
 # v2board
+https://github.com/cx9208/bbrplus
+https://xrayr-project.github.io/XrayR-doc/
+
+
 
 
 سلام دوستان عزیز امروز میخواهیم با هم نصب و راه اندازی V2board را با هم انجام دهیم .
@@ -133,7 +137,7 @@ Processes = 1</code>
 وارد سرور خود شوید برنامه زیر را نصب کنید.
 
 ابتدا شما باید برنامه XrayR نصب کنید برای این منظور شما می توانید از کد زیر استفاده کنید یا به وبسایت مرجع بروید.
-وب سایت مرجع
+
 
 
 <pre class="notranslate"><code>bash <(curl -Ls https://raw.githubusercontent.com/XrayR-project/XrayR-release/master/install.sh)</code></pre>
@@ -177,3 +181,26 @@ Processes = 1</code>
 
 
 بقیه مراحل را مانند ویدیو جلو بروید  زیرا زبان چینی هست
+
+در مرحال اول یک سرور جدید ساخته و آن را با کد زیر آپدیت میکنم 
+
+<pre class="notranslate"><code>sudo yum update</code></pre>
+
+بعد از این در کلود فلر یک ساب دامین ساخته و اپی سرور خود را در آن وارد میکنیم 
+
+حالا XrayR را با کد زیر نصب میکنم 
+
+<pre class="notranslate"><code>bash <(curl -Ls https://raw.githubusercontent.com/XrayR-project/XrayR-release/master/install.sh)</code></pre>
+
+حالا با کد زیر بی بی ار پلاس را نصب میکنید 
+
+<pre class="notranslate"><code>wget "https://github.com/cx9208/bbrplus/raw/master/ok_bbrplus_centos.sh"&& chmod +x ok_bbrplus_centos.sh &&./ok_bbrplus_centos.sh</code></pre>
+
+
+حالا مانند ویدیو کد ها را ادیت میکنید 
+
+<pre class="notranslate"><code>XrayR</code></pre>
+
+برای باز کردن پورت ها از کد زیر استفاده میکنید 
+
+<pre class="notranslate"><code>firewall-cmd --add-port=*****/tcp<code></pre> 
