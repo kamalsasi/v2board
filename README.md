@@ -78,7 +78,7 @@ rm -rf .htaccess 404.html index.html .user.ini</code>
 
 <code>Site Name>URL rewrite</code>
 
-<code>location /downloads {
+<pre class="notranslate"><code>location /downloads {
 }
 
 location / {  
@@ -90,7 +90,7 @@ location ~ .*\.(js|css)?$
     expires      1h;
     error_log off;
     access_log /dev/null; 
-}</code>
+}</code></pre>
     
 در مسیر زیر public را انتخاب کنید 
 
